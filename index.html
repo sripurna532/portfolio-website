@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sripurna's Portfolio</title>
+    <!-- Include Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="n navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="#"><b>Portfolio</b></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="https://www.linkedin.com/in/sripurna-maitra-biswas-50231812a"
+              >LinkedIn</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://github.com/sripurna532">Github</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://twitter.com/Sripurna4">Twitter</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero">
+      <div class="s text-secondary px-4 py-2 text-center sy">
+        <div class="py-5">
+          <h1 class="display-5 fw-bold text-white">Hello, I'm Sripurna</h1>
+          <h3>a full-stack developer</h3>
+          <div class="col-lg-6 mx-auto">
+            <p class="fs-5 mb-4">
+              I craft digital experiences that blend creativity and
+              functionality to bring ideas to life.My mission is to build
+              innovative, scalable, and elegant web solutions that solve
+              real-world problems.I thrive on continuous learning and stay at
+              the forefront of web technologies to provide the best solutions
+              for my clients.
+            </p>
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+              <a href="https://github.com/sripurna532"
+                ><button
+                  type="button"
+                  class="btn btn-outline-light btn-lg px-4 me-sm-3 fw-bold"
+                >
+                  Github
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-5 g">
+      <div class="container">
+        <h2 class="text-center pb-4">My Projects</h2>
+        <div id="projectCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ul class="carousel-indicators">
+            <li
+              data-target="#projectCarousel"
+              data-slide-to="0"
+              class="active"
+            ></li>
+            <li data-target="#projectCarousel" data-slide-to="1"></li>
+            <!-- Add more indicators for additional projects -->
+            <li data-target="#projectCarousel" data-slide-to="2"></li>
+            <li data-target="#projectCarousel" data-slide-to="3"></li>
+          </ul>
+
+          <!-- Slides -->
+          <div class="carousel-inner">
+            <!-- Project 1 -->
+            <div class="carousel-item active">
+              <img src="./gifs/Untitled (1).gif" alt="Project 1" />
+              <div class="carousel-caption">
+                <h3>Project: React Note-Keeping App</h3>
+                <p>
+                  This project demonstrates proficiency in React,
+                  component-based architecture, state management with
+                  `useState`, and dynamic rendering of notes in a note-keeping
+                  application.
+                </p>
+              </div>
+            </div>
+            <!-- Project 2 -->
+            <div class="carousel-item">
+              <img src="./gifs/Untitled.gif" alt="Project 2" />
+              <div class="carousel-caption">
+                <h3>
+                  Project: Secrets Project using Express.js Server with Axios
+                  Integration
+                </h3>
+                <p>
+                  This project demonstrates proficiency in server setup,
+                  routing, external API integration with Axios, dynamic data
+                  rendering, and error handling in an Express.js environment.
+                </p>
+              </div>
+            </div>
+            <!-- Add more slides for additional projects -->
+            <div class="carousel-item">
+              <img src="./gifs/Untitled (2).gif" alt="Project 2" />
+              <div class="carousel-caption">
+                <h3>Project: JavaScript Simon Game</h3>
+                <p>
+                  This project showcases JavaScript programming skills, event
+                  handling, user interaction, and game development with arrays
+                  and audio effects in a Simon game.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./gifs/Untitled (3).gif" alt="Project 2" />
+              <div class="carousel-caption">
+                <h3>Project: Express.js To-Do List with MongoDB</h3>
+                <p>
+                  This project demonstrates expertise in building web
+                  applications using Express.js, integrating MongoDB for data
+                  storage, and creating dynamic routes and views for efficient
+                  to-do list management.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Controls -->
+          <a
+            class="carousel-control-prev"
+            href="#projectCarousel"
+            role="button"
+            data-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#projectCarousel"
+            role="button"
+            data-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- skills -->
+    <div class="container px-4 py-5 q" id="icon-grid">
+      <h2 class="pb-2 border-bottom">My Skills:</h2>
+
+      <div
+        class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5"
+      >
+        <div class="col d-flex align-items-start">
+          <svg
+            class="bi text-body-secondary flex-shrink-0 me-3"
+            width="1.75em"
+            height="1.75em"
+          >
+            <use xlink:href="#bootstrap"></use>
+          </svg>
+          <div>
+            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">
+              HTML & CSS Mastery
+            </h3>
+            <p>
+              Proficient in crafting structured and semantically meaningful HTML
+              code, coupled with extensive CSS knowledge to create stunning and
+              responsive user interfaces. Experienced in using CSS frameworks
+              like Bootstrap for rapid and consistent styling.
+            </p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <svg
+            class="bi text-body-secondary flex-shrink-0 me-3"
+            width="1.75em"
+            height="1.75em"
+          >
+            <use xlink:href="#cpu-fill"></use>
+          </svg>
+          <div>
+            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">
+              React Expertise:
+            </h3>
+            <p>
+              Skilled in building interactive and dynamic user interfaces using
+              React. Capable of architecting components, managing state, and
+              implementing features that enhance user experience and
+              interactivity.
+            </p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <svg
+            class="bi text-body-secondary flex-shrink-0 me-3"
+            width="1.75em"
+            height="1.75em"
+          >
+            <use xlink:href="#calendar3"></use>
+          </svg>
+          <div>
+            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">
+              Node.js & Express.js Proficiency:
+            </h3>
+            <p>
+              Adept at leveraging Node.js and Express.js to create robust and
+              scalable back-end applications. Capable of setting up server
+              routes, handling middleware, and ensuring smooth communication
+              between the front and back end.
+            </p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <svg
+            class="bi text-body-secondary flex-shrink-0 me-3"
+            width="1.75em"
+            height="1.75em"
+          >
+            <use xlink:href="#home"></use>
+          </svg>
+          <div>
+            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">
+              Problem-Solving and Debugging Skills:
+            </h3>
+            <p>
+              Possess a keen eye for identifying and resolving complex technical
+              issues. Proficient in using browser developer tools and debugging
+              techniques to ensure smooth functionality and exceptional user
+              experience.
+            </p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <svg
+            class="bi text-body-secondary flex-shrink-0 me-3"
+            width="1.75em"
+            height="1.75em"
+          >
+            <use xlink:href="#speedometer2"></use>
+          </svg>
+          <div>
+            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">
+              EJS Templating:
+            </h3>
+            <p>
+              Experienced in using EJS (Embedded JavaScript) templates to
+              dynamically generate HTML on the server side. Able to create
+              dynamic web pages, reuse components, and efficiently manage data
+              rendering.
+            </p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <svg
+            class="bi text-body-secondary flex-shrink-0 me-3"
+            width="1.75em"
+            height="1.75em"
+          >
+            <use xlink:href="#toggles2"></use>
+          </svg>
+          <div>
+            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">
+              MongoDB & Mongoose Skills:
+            </h3>
+            <p>
+              Skilled in designing and working with MongoDB databases, along
+              with the ability to use Mongoose for seamless integration with
+              Node.js applications. Proficient in data modeling, querying, and
+              performing CRUD operations.
+            </p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <svg
+            class="bi text-body-secondary flex-shrink-0 me-3"
+            width="1.75em"
+            height="1.75em"
+          >
+            <use xlink:href="#geo-fill"></use>
+          </svg>
+          <div>
+            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">
+              Responsive Design with Bootstrap:
+            </h3>
+            <p>
+              Proficient in harnessing the power of Bootstrap to create visually
+              appealing and responsive websites. Able to efficiently utilize
+              Bootstrap's grid system and components for consistent design
+              across devices.
+            </p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <svg
+            class="bi text-body-secondary flex-shrink-0 me-3"
+            width="1.75em"
+            height="1.75em"
+          >
+            <use xlink:href="#tools"></use>
+          </svg>
+          <div>
+            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">
+              JavaScript Expertise:
+            </h3>
+            <p>
+              Strong command over JavaScript, enabling the development of
+              feature-rich and interactive web applications. Capable of working
+              with modern ES6+ features and employing JavaScript libraries
+              effectively.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Section -->
+    <section id="contact" class="h py-5">
+      <div class="container">
+        <h2 class="text-center pb-4">Contact Me</h2>
+        <!-- Add your contact form or contact information here -->
+        <p class="text-center">
+          Feel free to reach out to discuss potential collaboration
+          opportunities. With a strong background in full-stack development, I
+          am well-equipped to tackle your technical challenges and deliver
+          innovative solutions. I look forward to the opportunity to contribute
+          my expertise to your projects and help you achieve your goals.
+        </p>
+        <div class="text-center">
+          <a href="mailto:sripurna532@gmail.com"
+            ><button type="button" class="btn btn-light">Email</button></a
+          >
+        </div>
+      </div>
+    </section>
+    <div class="container">
+      <footer
+        class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+      >
+        <div class="col-md-4 d-flex align-items-center">
+          <span class="mb-3 mb-md-0 text-body-secondary">© 2023,Sripurna</span>
+        </div>
+      </footer>
+    </div>
+
+    <!-- Include Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>

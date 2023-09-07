@@ -1,0 +1,40 @@
+/* Add your custom styles here */
+/* Add your custom styles here */
+
+.carousel-item img {
+  width: 100%;
+  height: auto;
+}
+
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+}
+
+/* Additional styling as needed */
+.s {
+  height: 800px;
+  background-color: #141e46;
+}
+
+.sy {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+  align-content: center;
+}
+.n {
+  background-color: #fff5e0;
+}
+.g {
+  background-color: #fff5e0;
+}
+.h {
+  color: azure;
+  background-color: #ff6969;
+  height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  height: 80vh;
+  align-content: center;
+}
